@@ -1,0 +1,22 @@
+names:
+- awake
+- calling
+- chatting
+- closed_eye
+- drink
+- drowsy
+- eating
+- no_yawn
+- open_eye
+- smoking
+- yawn
+nc: 11
+roboflow:
+  license: CC BY 4.0
+  project: drive-drowsiness-detection
+  url: https://universe.roboflow.com/detection-4nooy/drive-drowsiness-detection/dataset/2
+  version: 2
+  workspace: detection-4nooy
+test: ../test/images
+train: Drive-Drowsiness-Detection-2/train/images
+val: Drive-Drowsiness-Detection-2/valid/images
